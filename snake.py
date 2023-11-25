@@ -118,6 +118,9 @@ while True:
 
     show_score(1, light, 'georgia', 20)
 
+    # increase speed as score goes up
+    snake_speed = 30 + score*0.5
+
     pygame.display.update()
     
     fps.tick(snake_speed)
